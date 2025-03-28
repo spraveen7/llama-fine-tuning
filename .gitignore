@@ -1,0 +1,41 @@
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Log files
+*.log
+
+# IDE configuration files (Visual Studio Code, JetBrains, etc.)
+.vscode/
+.idea/
+*.iml
+
+# Model weights and outputs
+*.bin
+*.ckpt
+output/
+
+# Datasets (optional: if you download large datasets directly in the repo)
+*.csv
+*.json
+*.tsv
+*.h5
+
+# Hugging Face cache
+.cache/
+
+# PyCharm specific files
+*.idea/
+
+# Miscellaneous
+*.tgz
+*.tar.gz
